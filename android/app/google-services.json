@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "246378592718",
+    "project_id": "seventhapp-7ee91",
+    "storage_bucket": "seventhapp-7ee91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246378592718:android:3b23e650760badc9f5139f",
+        "android_client_info": {
+          "package_name": "com.example.seventhapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246378592718-9tsn4f3g8dfn7vepnuejfr4tkvj7b4i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHJAExZ4m8Xi_Sd_SH8WQIeifAlDbfkU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246378592718-9tsn4f3g8dfn7vepnuejfr4tkvj7b4i6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "246378592718-2vh1ii3o42v97tjv9db85bo5ib3chm5a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.seventhapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
