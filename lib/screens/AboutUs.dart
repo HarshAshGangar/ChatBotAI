@@ -5,20 +5,24 @@ class AboutUs extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('About Us'),
-        backgroundColor: Colors.purple,
+        iconTheme: IconThemeData(color: Colors.white), // Sets drawer icon color to white
+        backgroundColor: Color(0xFF212121), // Set the background color for the area
+        title: Text('About Us', style: TextStyle(color: Colors.white),),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Center(
-          child: Text(
-            "This app is built by an App-Dev enthusiasts, Harsh Gangar",
-            style: TextStyle(
-              color: Colors.purple,
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
+      body: Container(
+        color: Color(0xFF212121), // Set the background color for the area
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Center(
+            child: Text(
+              "This app is powered by the Gemini API to provide AI-generated responses. Built with a focus on innovation and usability.",
+              style: TextStyle(
+                color: Color(0xffea80fc),
+                fontSize: 16,
+                fontWeight: FontWeight.normal,
+              ),
+              textAlign: TextAlign.center,
             ),
-            textAlign: TextAlign.center,
           ),
         ),
       ),
