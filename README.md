@@ -1,16 +1,55 @@
-# seventhapp
+# 🤖 ChatBotAI - seventhapp
 
-A new Flutter project.
+**ChatBotAI** is a powerful Flutter-based AI assistant app that brings the capabilities of ChatGPT to your phone using the **Gemini API**. With features like voice-to-text input, image understanding, and a sleek dark mode UI, it offers a complete conversational AI experience backed by **Firebase Firestore**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🧠 Conversational AI
+- Chat with an AI that understands context and provides intelligent responses
+- Built on **Gemini API**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🗣️ Voice-to-Text
+- Speak your queries instead of typing
+- Fast and accurate voice recognition
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🖼️ Image Upload & Analysis
+- Upload photos for the AI to process
+- Ask questions about diagrams, notes, objects, and more
+
+### 🌙 Always-On Dark Mode
+- A clean, distraction-free interface optimized for low-light use
+
+### 🔐 Firebase Integration
+- Uses **Firebase Firestore** to store:
+  - Chat history
+  - Image queries
+  - AI responses
+- **Firebase Storage** for storing uploaded images
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter** (Frontend)
+- **Gemini API** (Text + Vision AI)
+- **Firebase Firestore** (Database)
+- **Firebase Storage** (Image storage)
+- **Speech-to-Text Plugin** (for voice input)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK
+- Firebase project (with Firestore and Storage enabled)
+- Gemini API Key with vision support
+
+### Installation
+```bash
+git clone https://github.com/yourusername/seventhapp.git
+cd seventhapp
+flutter pub get
+flutter run
