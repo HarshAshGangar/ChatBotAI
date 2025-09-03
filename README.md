@@ -49,7 +49,7 @@
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/seventhapp.git
-cd seventhapp
+git clone https://github.com/HarshAshGangar/ChatBotAI.git
+cd ChatBotAI
 flutter pub get
 flutter run
